@@ -7,7 +7,7 @@
     "build": "node build.mjs",
     "test": "node --test",
     "cap:copy:ios": "npm run build && cap copy ios",
-    "android:apk": "npm run build && cap sync android && cd android && ./gradlew assembleDebug",
+    "android:apk": "npm run build && cap sync android && cd android && bash ./gradlew assembleDebug",
     "ios:simulator": "npm run build && cap copy ios && xcodebuild -workspace ios/App/App.xcworkspace -scheme App -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath .build/ios ARCHS=arm64 EXCLUDED_ARCHS= IPHONEOS_DEPLOYMENT_TARGET=15.5 MARKETING_VERSION=1.0.0 CURRENT_PROJECT_VERSION=2 CODE_SIGNING_ALLOWED=NO build"
   },
   "dependencies": {
