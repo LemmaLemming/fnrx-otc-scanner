@@ -2,7 +2,7 @@
 
 Source for the FNRx OTC Scanner iOS and Android **client test app** (`1.0.0-test.2`). The app scans a package barcode first. If a barcode is unavailable or unmapped, a user can photograph a printed DIN/NPN and confirm the recognized digits, or enter an eight-digit DIN, NPN, or Plan W PIN manually. It looks up the exact identifier in a bundled research copy of the September 2026 Plan W over-the-counter list.
 
-FNRx is an independent prototype, loosely informed by Island Health visual guidance. It is **not** an Island Health, First Nations Health Authority (FNHA), or Province of British Columbia service. A result is not an official eligibility or payment decision. The interface follows the [FNRx Figma design](https://www.figma.com/design/W6RV0ZgmnQAiAwVrMmuINX/) and uses BC Sans; the current revision keeps the FNRx mark and uses sharper corners, stronger borders, and higher contrast.
+FNRx is an independent prototype, loosely informed by Island Health visual guidance. It is **not** an Island Health, First Nations Health Authority (FNHA), or Province of British Columbia service. A result is not an official eligibility or payment decision. The interface uses BC Sans; the current revision keeps the FNRx mark and uses sharper corners, stronger borders, and higher contrast.
 
 ## What this snapshot can answer
 
