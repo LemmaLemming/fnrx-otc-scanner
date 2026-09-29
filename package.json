@@ -1,0 +1,26 @@
+{
+  "name": "fnrx-otc-scanner",
+  "version": "1.0.0-test.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test",
+    "cap:copy:ios": "npm run build && cap copy ios",
+    "android:apk": "npm run build && cap sync android && cd android && ./gradlew assembleDebug",
+    "ios:simulator": "npm run build && cap copy ios && xcodebuild -workspace ios/App/App.xcworkspace -scheme App -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath .build/ios ARCHS=arm64 EXCLUDED_ARCHS= IPHONEOS_DEPLOYMENT_TARGET=15.5 MARKETING_VERSION=1.0.0 CURRENT_PROJECT_VERSION=2 CODE_SIGNING_ALLOWED=NO build"
+  },
+  "dependencies": {
+    "@capacitor-mlkit/text-recognition": "8.2.1",
+    "@capacitor/android": "8.5.2",
+    "@capacitor/barcode-scanner": "3.1.2",
+    "@capacitor/camera": "8.2.4",
+    "@capacitor/core": "8.5.2",
+    "@capacitor/filesystem": "8.1.2",
+    "@capacitor/ios": "8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.2",
+    "esbuild": "^0.28.2"
+  }
+}

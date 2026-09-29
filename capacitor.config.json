@@ -1,0 +1,8 @@
+{
+  "appId": "org.fnrx.otcscanner",
+  "appName": "FNRx OTC Scanner",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "ios": { "preferredContentMode": "mobile" },
+  "android": { "allowMixedContent": false }
+}

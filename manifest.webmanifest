@@ -1,0 +1,13 @@
+{
+  "name": "FNRx OTC Scanner Test",
+  "short_name": "FNRx Test",
+  "description": "A test app using the September 2026 Plan W OTC research snapshot.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F8FAFA",
+  "theme_color": "#19647E",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

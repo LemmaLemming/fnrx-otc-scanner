@@ -1,0 +1,11 @@
+{
+  "listLabel": "September 2026 research snapshot",
+  "listUpdateLabel": "September 2026",
+  "researchDate": "2026-09-26",
+  "catalogCount": 507,
+  "barcodeCount": 289,
+  "officialListUrl": "https://www2.gov.bc.ca/assets/gov/health/health-drug-coverage/pharmacare/plan_w_otc_drug_list.pdf",
+  "sourcePdfSha256": "1e30591d20cadeac0e84ebcb8f6012839f28c80e78d1fa3fb014f1ade29ea64a",
+  "ledgerSha256": "d4f7f60b886dee8a2bdd5198ed22030ffd0cd42db5ed7b8262a803ebd77c1ce8",
+  "barcodeLookupSha256": "2c7e92b37399e1a78b9b516181a1183f5f4459467d414a354e473db797aed93d"
+}
