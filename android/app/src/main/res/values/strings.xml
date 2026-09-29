@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">FNRx OTC Scanner</string>
+    <string name="title_activity_main">FNRx OTC Scanner</string>
+    <string name="package_name">org.fnrx.otcscanner</string>
+    <string name="custom_url_scheme">org.fnrx.otcscanner</string>
+</resources>
